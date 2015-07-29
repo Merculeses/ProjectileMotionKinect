@@ -97,8 +97,11 @@ namespace DEEP
             /* Dear DEEP Student: This model of friction is WRONG WRONG WRONG. But it
              * seems to simulate friction quite well, doesn't it? If you'd like, you
              * can improve it to be accurate from a scientific standpoint. :) */
-            this.velocity[0] *= (1 - coefficientOfFriction);
-            this.velocity[1] *= (1 - coefficientOfFriction);
+            //this.velocity[0] *= (1 - coefficientOfFriction);
+            //this.velocity[1] *= (1 - coefficientOfFriction);
+            //distanceX, distanceY, VelocityX, VelocityY, acceleration, time
+            
+           
         }
     }
 }

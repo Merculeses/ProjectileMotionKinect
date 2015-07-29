@@ -62,9 +62,9 @@ namespace DEEP
             InitializeKinect();
             
             /* Make the big blue button do stuff. */
-            bigBlueButton = new DEEPButton(this.button, this.backgroundRectangle);
+           /* bigBlueButton = new DEEPButton(this.button, this.backgroundRectangle);
             bigBlueButton.ButtonPressed += bigBlueButton_ButtonPressed;
-            bigBlueButton.ButtonReleased += bigBlueButton_ButtonReleased;
+            bigBlueButton.ButtonReleased += bigBlueButton_ButtonReleased; */
 
             /* Make a list of all the Kinect-enabled objects in the app, and
              * add them to the list. */
@@ -75,38 +75,38 @@ namespace DEEP
             DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
 
             /* Set up the two planets. */
-            DenseVector venusVelocity = new DenseVector(new double[] { -11, 0 });
-            DEEPGravitationalObject kinectGrav1 = new DEEPGravitationalObject(6e14, new DenseVector(2), this.grav1, this.backgroundRectangle, true, false);
-            DEEPGravitationalObject kinectGrav2 = new DEEPGravitationalObject(6e14, venusVelocity, this.grav2, this.backgroundRectangle, true, false);
+            DenseVector venusVelocity = new DenseVector(new double[] { 0, -100 }); //-11, 0
+            // DEEPGravitationalObject kinectGrav1 = new DEEPGravitationalObject(6e1, new DenseVector(2), this.grav1, this.backgroundRectangle, true, false);
+            //DEEPGravitationalObject kinectGrav2 = new DEEPGravitationalObject(6e14, venusVelocity, this.grav2, this.backgroundRectangle, true, false);
 
             /* Set up the two thermal objects. */
-            DEEPThermalObject kinectThermal1 = new DEEPThermalObject(0.02d, 500d, 3d, this.thermal1, this.backgroundRectangle, true, false);
-            DEEPThermalObject kinectThermal2 = new DEEPThermalObject(0.02d, 100d, 2d, this.thermal2, this.backgroundRectangle, true, false);
+            //DEEPThermalObject kinectThermal1 = new DEEPThermalObject(0.02d, 500d, 3d, this.thermal1, this.backgroundRectangle, true, false);
+            //DEEPThermalObject kinectThermal2 = new DEEPThermalObject(0.02d, 100d, 2d, this.thermal2, this.backgroundRectangle, true, false);
 
             /* Set up two charged objects. */
-            DEEPElectricalObject kinectElec1 = new DEEPElectricalObject(-1d, 1d, this.elec1, this.backgroundRectangle, true, false);
-            DEEPElectricalObject kinectElec2 = new DEEPElectricalObject(-1d, 1d, this.elec2, this.backgroundRectangle, true, false);
+            //DEEPElectricalObject kinectElec1 = new DEEPElectricalObject(-1d, 1d, this.elec1, this.backgroundRectangle, true, false);
+            //DEEPElectricalObject kinectElec2 = new DEEPElectricalObject(-1d, 1d, this.elec2, this.backgroundRectangle, true, false);
 
             /* Add all of the interactive objects to the list, so we can keep track of them for later. */
             InteractiveObjects.Add(kinectObject01);
             InteractiveObjects.Add(kinectObject02);
-            InteractiveObjects.Add(kinectGrav1);
-            InteractiveObjects.Add(kinectGrav2);
-            InteractiveObjects.Add(kinectThermal1);
-            InteractiveObjects.Add(kinectThermal2);
-            InteractiveObjects.Add(kinectElec1);
-            InteractiveObjects.Add(kinectElec2);
+            //InteractiveObjects.Add(kinectGrav1);
+            //InteractiveObjects.Add(kinectGrav2);
+            //InteractiveObjects.Add(kinectThermal1);
+            //InteractiveObjects.Add(kinectThermal2);
+            //InteractiveObjects.Add(kinectElec1);
+            //InteractiveObjects.Add(kinectElec2);
 
             /* Also add the circles on the UI to the list. */
             InteractiveUIElements = new List<Ellipse>();
             InteractiveUIElements.Add(circle);
             InteractiveUIElements.Add(circle2);
-            InteractiveUIElements.Add(grav1);
-            InteractiveUIElements.Add(grav2);
-            InteractiveUIElements.Add(thermal1);
-            InteractiveUIElements.Add(thermal2);
-            InteractiveUIElements.Add(elec1);
-            InteractiveUIElements.Add(elec2);
+           // InteractiveUIElements.Add(grav1);
+            //InteractiveUIElements.Add(grav2);
+            //InteractiveUIElements.Add(thermal1);
+            //InteractiveUIElements.Add(thermal2);
+            //InteractiveUIElements.Add(elec1);
+            //InteractiveUIElements.Add(elec2);
 
             /* Make it so we can handle presses on the background to make new circles. */
             KinectRegion.SetIsPressTarget(this.backgroundRectangle, true);
