@@ -71,8 +71,9 @@ namespace DEEP
             InteractiveObjects = new List<DEEPKinectObjectBaseClass>();
 
             /* Make the circles on the screen interactive. */
-            DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
-            DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
+            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(10d, this.ball, this.backgroundRectangle, true, true);
+            //DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
+            //DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
 
             /* Set up the two planets. */
             DenseVector venusVelocity = new DenseVector(new double[] { 0, -100 }); //-11, 0
@@ -88,8 +89,9 @@ namespace DEEP
             //DEEPElectricalObject kinectElec2 = new DEEPElectricalObject(-1d, 1d, this.elec2, this.backgroundRectangle, true, false);
 
             /* Add all of the interactive objects to the list, so we can keep track of them for later. */
-            InteractiveObjects.Add(kinectObject01);
-            InteractiveObjects.Add(kinectObject02);
+            InteractiveObjects.Add(kinectObject);
+            //InteractiveObjects.Add(kinectObject01);
+            //InteractiveObjects.Add(kinectObject02);
             //InteractiveObjects.Add(kinectGrav1);
             //InteractiveObjects.Add(kinectGrav2);
             //InteractiveObjects.Add(kinectThermal1);
@@ -99,8 +101,9 @@ namespace DEEP
 
             /* Also add the circles on the UI to the list. */
             InteractiveUIElements = new List<Ellipse>();
-            InteractiveUIElements.Add(circle);
-            InteractiveUIElements.Add(circle2);
+            InteractiveUIElements.Add(ball);
+            //InteractiveUIElements.Add(circle);
+            //InteractiveUIElements.Add(circle2);
            // InteractiveUIElements.Add(grav1);
             //InteractiveUIElements.Add(grav2);
             //InteractiveUIElements.Add(thermal1);
