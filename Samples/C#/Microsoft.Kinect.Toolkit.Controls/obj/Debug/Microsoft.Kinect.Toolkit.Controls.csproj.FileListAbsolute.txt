@@ -1,0 +1,36 @@
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\ControlsBasics-WPF\.Debug\KinectInteraction170_32.dll
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\ControlsBasics-WPF\.Debug\KinectInteraction170_64.dll
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_32.dll
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_64.dll
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+F:\Repos\Work2013\DEEP\Kinect\src\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_32.dll
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_64.dll
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+F:\Repos\Work2013\DEEP\Kinect\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
