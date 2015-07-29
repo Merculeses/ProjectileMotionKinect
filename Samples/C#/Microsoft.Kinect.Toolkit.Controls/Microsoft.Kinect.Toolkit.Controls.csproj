@@ -32,12 +32,12 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Kinect.Toolkit.Interaction">
-      <HintPath>$(KINECT_TOOLKIT_DIR)Assemblies\Microsoft.Kinect.Toolkit.Interaction.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Kinect">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>$(KINECTSDK10_DIR)\Assemblies\Microsoft.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Kinect.Toolkit.Interaction">
+      <HintPath>..\..\..\Assemblies\Microsoft.Kinect.Toolkit.Interaction.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />

@@ -5,55 +5,9 @@
         Title="DEEP Demo" Height="650" Width="1000"
         Closing="WindowClosing" ResizeMode="NoResize">
     <Grid>
-        <k:KinectRegion x:Name="kinectRegion"> 
+        <k:KinectRegion x:Name="kinectRegion">
             <Grid x:Name="kinectRegionGrid" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,0,0,0">
                 <Rectangle x:Name="backgroundRectangle" Fill="#FF96C7DE" Margin="0,0,0,0"/>
-                <Ellipse x:Name="button" Width="175" Height="175" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,28,0,0">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/button.jpg" Stretch="Uniform">
-                            <ImageBrush.RelativeTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleY="2.4" ScaleX="2.4"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform Y="-0.7" X="-0.1"/>
-                                </TransformGroup>
-                            </ImageBrush.RelativeTransform>
-                        </ImageBrush>
-                    </Ellipse.Fill>
-                </Ellipse>
-                <Ellipse x:Name="grav2" Width="150" Height="150" 
-                         Margin="747,28,0,0" Stroke="Black" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" StrokeThickness="0">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/venus.jpg" Stretch="UniformToFill">
-                            <ImageBrush.RelativeTransform>
-                                <TransformGroup>
-                                    <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.17" ScaleY="1.17"/>
-                                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
-                                    <RotateTransform CenterY="0.5" CenterX="0.5"/>
-                                    <TranslateTransform Y="0.023"/>
-                                </TransformGroup>
-                            </ImageBrush.RelativeTransform>
-                        </ImageBrush>
-                    </Ellipse.Fill>
-                </Ellipse>
-                <Ellipse x:Name="grav1" Width="220" Height="220" 
-                         Margin="730,366,0,0" Stroke="Black" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" StrokeThickness="0">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/planet-earth.jpg" Stretch="UniformToFill">
-                            <ImageBrush.RelativeTransform>
-                                <TransformGroup>
-                                    <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.1" ScaleY="1.1"/>
-                                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
-                                    <RotateTransform CenterY="0.5" CenterX="0.5"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </ImageBrush.RelativeTransform>
-                        </ImageBrush>
-                    </Ellipse.Fill>
-                </Ellipse>
                 <Ellipse x:Name="circle" Width="190" Height="190" 
                          Margin="73,326,0,0" Stroke="Black" 
                          HorizontalAlignment="Left" VerticalAlignment="Top" StrokeThickness="5">
@@ -77,18 +31,6 @@
                         <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/TestMass.jpg"/>
                     </Ellipse.Fill>
                 </Ellipse>
-                <Ellipse x:Name="thermal1" Width="150" Height="150" 
-                         Margin="420,14,0,0" Stroke="Black" StrokeThickness="5" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" Fill="Red"/>
-                <Ellipse x:Name="thermal2" Width="150" Height="150" 
-                         Margin="244,17,0,0" Stroke="Black" StrokeThickness="5" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" Fill="Red"/>
-                <Ellipse x:Name="elec1" Width="150" Height="150" 
-                         Margin="397,448,0,0" Stroke="Black" StrokeThickness="5" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFFFF500"/>
-                <Ellipse x:Name="elec2" Width="150" Height="150" 
-                         Margin="485,283,0,0" Stroke="Black" StrokeThickness="5" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFFFF500"/>
             </Grid>
         </k:KinectRegion>
         <Label Content="DEEP Demo. Grab the circles with your hands!" HorizontalAlignment="Left" Margin="11,570,0,0" VerticalAlignment="Top" Height="40" Width="413" FontSize="20"/>
