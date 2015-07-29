@@ -100,8 +100,9 @@ namespace DEEP
             //this.velocity[0] *= (1 - coefficientOfFriction);
             //this.velocity[1] *= (1 - coefficientOfFriction);
             //distanceX, distanceY, VelocityX, VelocityY, acceleration, time
-            
-           
+
+            this.velocity[0] += 0;
+            this.velocity[1] += 9.81d * 1;
         }
     }
 }
