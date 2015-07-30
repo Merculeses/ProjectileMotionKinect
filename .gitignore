@@ -72,3 +72,4 @@ packages
 
 # Allow NuGet specific exes and dlls
 !.nuget/Microsoft.Build.dll
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\DEEP Sample 1 Project\bin\*
