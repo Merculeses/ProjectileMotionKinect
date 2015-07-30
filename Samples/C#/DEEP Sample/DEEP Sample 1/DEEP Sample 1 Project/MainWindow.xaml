@@ -9,7 +9,11 @@
             <Grid x:Name="kinectRegionGrid" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,0,0,0">
                 <Rectangle x:Name="backgroundRectangle" Fill="#FF96C7DE" Margin="0,0,0,0"/>
                 <Ellipse x:Name="ball" Width="100" Height="100" 
+<<<<<<< HEAD
                          Margin="6,514,0,0" StrokeThickness="5" 
+=======
+                         Margin="16,509,0,0" StrokeThickness="5" 
+>>>>>>> development
                          HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFF75C14"/>
             </Grid>
         </k:KinectRegion>
