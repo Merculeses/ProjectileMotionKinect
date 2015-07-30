@@ -40,11 +40,6 @@ namespace DEEP
         private List<Ellipse> InteractiveUIElements;
 
         /// <summary>
-        /// The big blue button on the UI. 
-        /// </summary>
-        DEEPButton bigBlueButton;
-
-        /// <summary>
         /// This timer goes off often to advance interactions between 
         /// all the parts involved.
         /// </summary>
@@ -60,11 +55,6 @@ namespace DEEP
 
             //Set up all Kinect-related stuff. Don't change this!
             InitializeKinect();
-            
-            /* Make the big blue button do stuff. */
-           /* bigBlueButton = new DEEPButton(this.button, this.backgroundRectangle);
-            bigBlueButton.ButtonPressed += bigBlueButton_ButtonPressed;
-            bigBlueButton.ButtonReleased += bigBlueButton_ButtonReleased; */
 
             /* Make a list of all the Kinect-enabled objects in the app, and
              * add them to the list. */
@@ -72,44 +62,13 @@ namespace DEEP
 
             /* Make the circles on the screen interactive. */
             DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(10d, this.ball, this.backgroundRectangle, true, true);
-            //DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
-            //DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
-
-            /* Set up the two planets. */
-            DenseVector venusVelocity = new DenseVector(new double[] { 0, -100 }); //-11, 0
-            // DEEPGravitationalObject kinectGrav1 = new DEEPGravitationalObject(6e1, new DenseVector(2), this.grav1, this.backgroundRectangle, true, false);
-            //DEEPGravitationalObject kinectGrav2 = new DEEPGravitationalObject(6e14, venusVelocity, this.grav2, this.backgroundRectangle, true, false);
-
-            /* Set up the two thermal objects. */
-            //DEEPThermalObject kinectThermal1 = new DEEPThermalObject(0.02d, 500d, 3d, this.thermal1, this.backgroundRectangle, true, false);
-            //DEEPThermalObject kinectThermal2 = new DEEPThermalObject(0.02d, 100d, 2d, this.thermal2, this.backgroundRectangle, true, false);
-
-            /* Set up two charged objects. */
-            //DEEPElectricalObject kinectElec1 = new DEEPElectricalObject(-1d, 1d, this.elec1, this.backgroundRectangle, true, false);
-            //DEEPElectricalObject kinectElec2 = new DEEPElectricalObject(-1d, 1d, this.elec2, this.backgroundRectangle, true, false);
 
             /* Add all of the interactive objects to the list, so we can keep track of them for later. */
             InteractiveObjects.Add(kinectObject);
-            //InteractiveObjects.Add(kinectObject01);
-            //InteractiveObjects.Add(kinectObject02);
-            //InteractiveObjects.Add(kinectGrav1);
-            //InteractiveObjects.Add(kinectGrav2);
-            //InteractiveObjects.Add(kinectThermal1);
-            //InteractiveObjects.Add(kinectThermal2);
-            //InteractiveObjects.Add(kinectElec1);
-            //InteractiveObjects.Add(kinectElec2);
 
             /* Also add the circles on the UI to the list. */
             InteractiveUIElements = new List<Ellipse>();
             InteractiveUIElements.Add(ball);
-            //InteractiveUIElements.Add(circle);
-            //InteractiveUIElements.Add(circle2);
-           // InteractiveUIElements.Add(grav1);
-            //InteractiveUIElements.Add(grav2);
-            //InteractiveUIElements.Add(thermal1);
-            //InteractiveUIElements.Add(thermal2);
-            //InteractiveUIElements.Add(elec1);
-            //InteractiveUIElements.Add(elec2);
 
             /* Make it so we can handle presses on the background to make new circles. */
             KinectRegion.SetIsPressTarget(this.backgroundRectangle, true);
@@ -119,40 +78,6 @@ namespace DEEP
             simulationTick = new System.Timers.Timer(DEEPKinectObjectBaseClass.internalRefreshRate * 1000d);
             simulationTick.Elapsed += simulationTick_Elapsed;
             simulationTick.Start();
-        }
-
-        /// <summary>
-        /// This callback goes off every time the big blue button is let go of.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="args"></param>
-        void bigBlueButton_ButtonReleased(object sender, HandPointerEventArgs args)
-        {
-            /* Get rid of all the objects on the screen. */
-            InteractiveObjects.Clear();
-            
-            /* Go through the kinectRegion and remove all Ellipses (the circles visible
-             * on the screen.) */
-            Ellipse testEllipse = new Ellipse();
-
-            foreach (Ellipse uiElement in InteractiveUIElements)
-            {
-                kinectRegionGrid.Children.Remove(uiElement);
-            }
-
-            /* Now clear the list. */
-            InteractiveUIElements.Clear();
-        }
-
-        /// <summary>
-        /// This callback goes off every time the big blue button is pressed.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="args"></param>
-        void bigBlueButton_ButtonPressed(object sender, HandPointerEventArgs args)
-        {
-            /* Once pressed, we'll wait for it to get released before doing
-             * anything. So we'll leave this blank! */
         }
 
         /// <summary>
