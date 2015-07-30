@@ -35,6 +35,7 @@ namespace DEEP
         /// <param name="isGrippable"></param>
         /// <param name="isPressable"></param>
         public DEEPKinematicObject( double setMassTo,
+                                    DenseVector startingVelocity,
                                     Ellipse onScreenShape,
                                     UIElement backGroundRectangle,
                                     bool isGrippable,
@@ -47,6 +48,7 @@ namespace DEEP
 
             /* Next, we set the mass. */
             this.mass = setMassTo;
+            this.velocity = startingVelocity;
         }
 
         /// <summary>

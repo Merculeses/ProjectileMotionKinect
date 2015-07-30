@@ -71,12 +71,13 @@ namespace DEEP
             InteractiveObjects = new List<DEEPKinectObjectBaseClass>();
 
             /* Make the circles on the screen interactive. */
-            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, this.ball, this.backgroundRectangle, true, true);
+            DenseVector ballVelocity = new DenseVector(new double[] { 0, 0 });
+            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, ballVelocity, this.ball, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
 
             /* Set up the two planets. */
-            DenseVector venusVelocity = new DenseVector(new double[] { 0, -100 }); //-11, 0
+            //DenseVector venusVelocity = new DenseVector(new double[] { 0, -100 }); //-11, 0
             // DEEPGravitationalObject kinectGrav1 = new DEEPGravitationalObject(6e1, new DenseVector(2), this.grav1, this.backgroundRectangle, true, false);
             //DEEPGravitationalObject kinectGrav2 = new DEEPGravitationalObject(6e14, venusVelocity, this.grav2, this.backgroundRectangle, true, false);
 
