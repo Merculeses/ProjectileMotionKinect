@@ -46,3 +46,15 @@ C:\Users\Student\Downloads\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debu
 C:\Users\Student\Downloads\Kinect2015\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
 C:\Users\Student\Downloads\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
 C:\Users\Student\Downloads\Kinect2015\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_32.dll
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\KinectInteraction170_64.dll
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb

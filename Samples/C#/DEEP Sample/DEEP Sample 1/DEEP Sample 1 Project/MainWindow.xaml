@@ -8,32 +8,11 @@
         <k:KinectRegion x:Name="kinectRegion">
             <Grid x:Name="kinectRegionGrid" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,0,0,0">
                 <Rectangle x:Name="backgroundRectangle" Fill="#FF96C7DE" Margin="0,0,0,0"/>
-                <Ellipse x:Name="circle" Width="190" Height="190" 
-                         Margin="73,326,0,0" Stroke="Black" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top" StrokeThickness="5">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/TestMass.jpg" TileMode="Tile">
-                            <ImageBrush.RelativeTransform>
-                                <TransformGroup>
-                                    <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="0.8" ScaleX="0.8"/>
-                                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
-                                    <RotateTransform CenterY="0.5" CenterX="0.5"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </ImageBrush.RelativeTransform>
-                        </ImageBrush>
-                    </Ellipse.Fill>
-                </Ellipse>
-                <Ellipse x:Name="circle2" Width="150" Height="150" 
-                         Margin="308,282,0,0" Stroke="Black" StrokeThickness="5" 
-                         HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/TestMass.jpg"/>
-                    </Ellipse.Fill>
-                </Ellipse>
+                <Ellipse x:Name="ball" Width="100" Height="100" 
+                         Margin="16,509,0,0" StrokeThickness="5" 
+                         HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFF75C14"/>
             </Grid>
         </k:KinectRegion>
-        <Label Content="DEEP Demo. Grab the circles with your hands!" HorizontalAlignment="Left" Margin="11,570,0,0" VerticalAlignment="Top" Height="40" Width="413" FontSize="20"/>
         <k:KinectUserViewer k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top" />
         <k:KinectSensorChooserUI x:Name="sensorChooserUi" HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Grid>
