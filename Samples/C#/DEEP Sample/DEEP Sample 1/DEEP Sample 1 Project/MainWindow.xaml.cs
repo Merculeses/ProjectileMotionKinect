@@ -168,6 +168,8 @@ namespace DEEP
 
             /* Find out if there are hand cursors to be had. */
 
+            velocityBall.Dispatcher.Invoke(new Action(delegate() { velocityBall.Content = "test"; }));
+
             ReadOnlyObservableCollection<HandPointer> handPointers = kinectRegion.HandPointers;
 
             /* First we look at the interaction of the hand with the other objects. */

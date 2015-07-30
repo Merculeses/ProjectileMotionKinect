@@ -107,6 +107,7 @@ namespace DEEP
                 this.velocity[0] += 0;
                 this.velocity[1] += 9.81d * 1;
             }
+            //velocityBall.Dispatcher.Invoke(new Action(delegate() { velocityBall.Text = this.velocity[0].ToString(); }));
             //Console.WriteLine(isGripped);
 
             //this.onScreenShapePosition.X += this.velocity[0] * 1;
