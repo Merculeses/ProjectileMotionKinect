@@ -231,19 +231,7 @@ namespace DEEP
         /// <param name="args"></param>
         void OnBackgroundPressHandler(object sender, HandPointerEventArgs args)
         {
-            /* Create a new circle on the screen where the background was pressed. */
-            DenseVector position = new DenseVector(new double[] { args.HandPointer.GetPosition(kinectRegion).X, 
-                                                                  args.HandPointer.GetPosition(kinectRegion).Y });
-            Ellipse genEllipse = CreateEllipse(160d, position);
 
-            /* Tie a DEEPKinectObject to the ellipse on screen. */
-            DEEPKinematicObject newGravObject = new DEEPKinematicObject(10d, genEllipse, this.backgroundRectangle,
-                                                                                true, true);
-            /* Add it to the list of items in the app. */
-            InteractiveObjects.Add(newGravObject);
-
-            /* Also add the circle on the UI to the list, so we can keep track of it. */
-            InteractiveUIElements.Add(genEllipse);
         }
 
         #region Don't modify these. They're necessary to make the program work, but you won't need to change them.
