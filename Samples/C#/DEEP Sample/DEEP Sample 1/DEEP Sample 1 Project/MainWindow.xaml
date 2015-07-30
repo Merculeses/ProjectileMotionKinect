@@ -2,8 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:k="http://schemas.microsoft.com/kinect/2013" x:Class="DEEP.MainWindow"
-        Title="DEEP Demo" Height="650" Width="1000"
-        Closing="WindowClosing" ResizeMode="NoResize">
+        Title="Projectile Motion" Height="650" Width="1000"
+        Closing="WindowClosing" ResizeMode="NoResize"
+        WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized">
     <Grid>
         <k:KinectRegion x:Name="kinectRegion">
             <Grid x:Name="kinectRegionGrid" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,0,0,0">
