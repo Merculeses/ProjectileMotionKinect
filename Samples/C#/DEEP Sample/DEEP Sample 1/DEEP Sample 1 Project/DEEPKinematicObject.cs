@@ -100,9 +100,12 @@ namespace DEEP
             this.velocity[0] *= (1 - coefficientOfFriction);
             this.velocity[1] *= (1 - coefficientOfFriction);
             //distanceX, distanceY, VelocityX, VelocityY, acceleration, time
-
-            this.velocity[0] += 0;
-            this.velocity[1] += 9.81d * 1;
+            if (!isGripped)
+            {
+                this.velocity[0] += 0;
+                this.velocity[1] += 9.81d * 1;
+            }
+            //Console.WriteLine(isGripped);
 
             //this.onScreenShapePosition.X += this.velocity[0] * 1;
             //this.onScreenShapePosition.Y += this.velocity[1] * 1;
