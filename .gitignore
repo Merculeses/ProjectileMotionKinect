@@ -52,3 +52,5 @@ Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/obj/Debug/DEEP Sample
 *.cache
 Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/bin/Debug/DEEP Sample 1.pdb
 *.pdb
+*.cache
+*.suo
