@@ -71,7 +71,7 @@ namespace DEEP
             InteractiveObjects = new List<DEEPKinectObjectBaseClass>();
 
             /* Make the circles on the screen interactive. */
-            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(10d, this.ball, this.backgroundRectangle, true, true);
+            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, this.ball, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
 
