@@ -41,16 +41,38 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1.v11.suo
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/obj/Debug/DEEP Sample 1.csprojResolveAssemblyReference.cache
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1.v11.suo
-*.cache
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/bin/Debug/DEEP Sample 1.exe
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/bin/Debug/DEEP Sample 1.exe
-*.Cache
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/obj/Debug/DEEP Sample 1.exe
-*.cache
-Samples/C#/DEEP Sample/DEEP Sample 1/DEEP Sample 1 Project/bin/Debug/DEEP Sample 1.pdb
-*.pdb
-*.cache
+[Oo]bj
+[Rr]elease
+[Dd]ebug
+packages
+*.exe
+*.dll
+*.user
 *.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.DS_Store
+[Tt]humbs.db 
+_ReSharper.*
+*.resharper
+Ankh.NoLoad
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+*.userprefs
+*.pidb
+
+# NuGet Packages Directory
+packages
+*.nupkg
+
+# Allow NuGet specific exes and dlls
+!.nuget/Microsoft.Build.dll
+
+#Ignore specific folders
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\DEEP Sample 1 Project\bin\*
+C:\Users\Student\Desktop\ProjectileMotionKinect\Samples\C#\DEEP Sample\DEEP Sample 1\DEEP Sample 1 Project\obj\*
