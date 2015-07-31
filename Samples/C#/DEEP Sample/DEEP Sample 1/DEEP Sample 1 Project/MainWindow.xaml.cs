@@ -167,9 +167,8 @@ namespace DEEP
             /* Here we make calculations about how all the objects interact. */
 
             /* Find out if there are hand cursors to be had. */
-
-            velocityBall.Dispatcher.Invoke(new Action(delegate() { velocityBall.Content = "test"; }));
-
+            velocityBallX.Dispatcher.Invoke(new Action(delegate() { velocityBallX.Content = "X Velocity: " + InteractiveObjects[0].velocity[0].ToString(); }));
+            velocityBallY.Dispatcher.Invoke(new Action(delegate() { velocityBallY.Content = "Y Velocity: " + InteractiveObjects[0].velocity[1].ToString(); }));
             ReadOnlyObservableCollection<HandPointer> handPointers = kinectRegion.HandPointers;
 
             /* First we look at the interaction of the hand with the other objects. */
