@@ -71,8 +71,8 @@ namespace DEEP
             InteractiveObjects = new List<DEEPKinectObjectBaseClass>();
 
             /* Make the circles on the screen interactive. */
-            DenseVector ballVelocity = new DenseVector(new double[] { 0, 0 });
-            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, ballVelocity, this.ball, this.backgroundRectangle, true, true);
+           // DenseVector ballVelocity = new DenseVector(new double[] { 0, 0 });
+           // DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, ballVelocity, this.ball, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject01 = new DEEPKinematicObject(10d, this.circle, this.backgroundRectangle, true, true);
             //DEEPKinectObjectBaseClass kinectObject02 = new DEEPKinematicObject(10d, this.circle2, this.backgroundRectangle, true, true);
 
@@ -90,7 +90,7 @@ namespace DEEP
             //DEEPElectricalObject kinectElec2 = new DEEPElectricalObject(-1d, 1d, this.elec2, this.backgroundRectangle, true, false);
 
             /* Add all of the interactive objects to the list, so we can keep track of them for later. */
-            InteractiveObjects.Add(kinectObject);
+           // InteractiveObjects.Add(kinectObject);
             //InteractiveObjects.Add(kinectObject01);
             //InteractiveObjects.Add(kinectObject02);
             //InteractiveObjects.Add(kinectGrav1);
@@ -235,6 +235,17 @@ namespace DEEP
         void OnBackgroundPressHandler(object sender, HandPointerEventArgs args)
         {
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            float vx = Convert.ToSingle(velocityx.Text);
+            float vy = Convert.ToSingle(velocityy.Text);
+
+            DenseVector ballVelocity = new DenseVector(new double[] { vx, vy });
+            DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, ballVelocity, this.ball, this.backgroundRectangle, true, true);
+            InteractiveObjects.Add(kinectObject);
         }
 
         #region Don't modify these. They're necessary to make the program work, but you won't need to change them.
