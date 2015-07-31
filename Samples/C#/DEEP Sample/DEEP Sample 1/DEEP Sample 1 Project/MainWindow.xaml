@@ -20,8 +20,10 @@
 
         <k:KinectUserViewer k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top" />
         <k:KinectSensorChooserUI x:Name="sensorChooserUi" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="velx"  Height="35" Width="200" Text="VelocityX" Margin="0,0,700,600"/>
-        <TextBox x:Name="vely"  Height="35" Width="200" Text="VelocityY" Margin="0,0,200,600"/>
-        <Button x:Name="enterbutton" Content="Enter" Click="Button_Click" Height="35" Width="100"  Margin="150,0,0,600" />
+        <TextBox x:Name="velx"  Height="35" Width="200" Text="0" Margin="0,0,800,600"/>
+        <TextBox x:Name="vely"  Height="35" Width="200" Text="0" Margin="0,0,300,600"/>
+        <Button x:Name="enterbutton" Content="Enter" Click="Button_Click" Height="35" Width="100"  Margin="50,0,0,600" />
+        <Label Content="Velocity X"  Margin="-500,-60,0,600"  Height="40" Width="413" FontSize="20"/>
+        <Label Content="Velocity Y"  Margin="-0,-60,0,600"  Height="40" Width="413" FontSize="20"/>
     </Grid>
 </Window>
