@@ -239,6 +239,7 @@ namespace DEEP
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
+           
             float vx = Convert.ToSingle(velx.Text);
             float vy = Convert.ToSingle(vely.Text);
 
