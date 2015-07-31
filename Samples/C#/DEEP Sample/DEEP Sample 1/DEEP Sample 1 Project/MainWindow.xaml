@@ -11,7 +11,7 @@
                 
                 <Rectangle x:Name="backgroundRectangle" Fill="#FF96C7DE" Margin="0,0,0,0"/>
                 <Ellipse x:Name="ball" Width="100" Height="100" 
-                         Margin="517,550,0,0" StrokeThickness="5" 
+                         Margin="517,670,0,0" StrokeThickness="5" 
                          HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFF75C14" RenderTransformOrigin="0.503,3.768"/>
                 <Label x:Name="velocityBall" Content="0" HorizontalAlignment="Left" Margin="11,570,0,0" VerticalAlignment="Top" Height="40" Width="413" FontSize="20"/>
             </Grid>
@@ -19,8 +19,8 @@
 
         <k:KinectUserViewer k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top" />
         <k:KinectSensorChooserUI x:Name="sensorChooserUi" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="velocityx"  Height="35" Width="200" Text="VelocityX" Margin="0,0,700,600"/>
-        <TextBox x:Name="velocityy"  Height="35" Width="200" Text="VelocityY" Margin="0,0,200,600"/>
+        <TextBox x:Name="velx"  Height="35" Width="200" Text="VelocityX" Margin="0,0,700,600"/>
+        <TextBox x:Name="vely"  Height="35" Width="200" Text="VelocityY" Margin="0,0,200,600"/>
         <Button x:Name="enterbutton" Content="Enter" Click="Button_Click" Height="35" Width="100"  Margin="150,0,0,600" />
     </Grid>
 </Window>

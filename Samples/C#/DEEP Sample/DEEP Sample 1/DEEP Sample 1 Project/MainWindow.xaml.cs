@@ -240,8 +240,8 @@ namespace DEEP
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
-            float vx = Convert.ToSingle(velocityx.Text);
-            float vy = Convert.ToSingle(velocityy.Text);
+            float vx = Convert.ToSingle(velx.Text);
+            float vy = Convert.ToSingle(vely.Text);
 
             DenseVector ballVelocity = new DenseVector(new double[] { vx, vy });
             DEEPKinectObjectBaseClass kinectObject = new DEEPKinematicObject(0.1d, ballVelocity, this.ball, this.backgroundRectangle, true, true);
